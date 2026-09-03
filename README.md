@@ -1,2 +1,2 @@
-mRNA Knowledge Networks developed by COSBI - Trento,
-Property of BioForge
+mRNA Knowledge Networks developed by COSBI - Trento, 
+Property of Pitt BioForge
