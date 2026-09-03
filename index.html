@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Diagrams - Course Material</title>
+    <style>
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; 
+            line-height: 1.6; 
+            max-width: 800px; 
+            margin: 40px auto; 
+            padding: 20px; 
+            color: #333; 
+            background-color: #f4f7f6; 
+        }
+        h1 { 
+            color: #2c3e50; 
+            text-align: center; 
+            margin-bottom: 10px; 
+        }
+        p.subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 40px;
+            font-size: 1.1em;
+        }
+        .diagram-list {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .diagram-link { 
+            display: block; 
+            padding: 20px; 
+            background-color: #ffffff; 
+            border: 1px solid #e1e4e8; 
+            border-radius: 8px; 
+            text-decoration: none; 
+            color: #0366d6; 
+            font-weight: bold; 
+            font-size: 18px; 
+            transition: all 0.2s ease;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        .diagram-link:hover { 
+            background-color: #f0f7ff; 
+            border-color: #0366d6;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1); 
+            transform: translateY(-2px);
+        }
+        .diagram-link span {
+            display: block;
+            font-size: 14px;
+            color: #586069;
+            font-weight: normal;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>mRNA Knowledge Networks</h1>
+    <p class="subtitle">Select an interactive diagram to view</p>
+    
+    <div class="diagram-list">
+        <!-- Replace the filename in the href attribute with your exact SVG filenames -->
+        
+        <a href="Tavola_1_Intracellular_mRNALifeCycle.svg" class="diagram-link">
+            📄 Diagram 1: Intracellular mRNA Life Cycle
+            <span>Click to open the interactive diagram</span>
+        </a>
+
+        <a href="Tavola_2_mRNA_Cargo_Design_and_Translation_Efficiency.svg" class="diagram-link">
+            📄 Diagram 2: mRNA Cargo Design and Translation Efficiency 
+            <span>Click to open the interactive diagram</span>
+        </a>
+
+        <a href="Tavola_3_LNPs_Structure_and_Biodistribution.svg" class="diagram-link">
+            📄 Diagram 3: LNPs Structure and Biodistribution
+            <span>Click to open the interactive diagram</span>
+        </a>
+
+        <a href="Tavola_4_mRNA_Vaccines.svg" class="diagram-link">
+            📄 Diagram 4: Product - mRNA Vaccines
+            <span>Click to open the interactive diagram</span>
+        </a>
+
+        <a href="Tavola_5_mRNA-Based_GeneTherapy.svg" class="diagram-link">
+            📄 Diagram 5: Product - mRNA-Based Gene Therapy
+            <span>Click to open the interactive diagram</span>
+        </a>
+
+        <a href="Tavola_6_mRNA-Encoded_Bispecific_Antibodies.svg" class="diagram-link">
+            📄 Diagram 6: Product - mRNA-Encoded Antibodies
+            <span>Click to open the interactive diagram</span>
+        </a>
+    </div>
+
+</body>
+</html>
